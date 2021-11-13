@@ -2,6 +2,3 @@
 
 Гистограмму распределения каждой метрики из датасета.
 
-dfw = df[['temp', 'atemp', 'humidity', 'windspeed']]
-dfw.hist(figsize = (14,14),bins = 50, log = True)
-plt.title("Распределение метрик в датасете")
